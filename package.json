@@ -1,0 +1,56 @@
+{
+  "name": "@shipitandpray/pretext-truncate",
+  "version": "1.0.0",
+  "description": "Multiline text truncation with Show More/Less — zero flash of content. Powered by @chenglou/pretext for pure-JS line break computation.",
+  "author": "ShipItAndPray",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "check": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "@chenglou/pretext": ">=0.0.3",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@chenglou/pretext": "^0.0.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "jsdom": "^26.1.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  },
+  "keywords": [
+    "truncate",
+    "ellipsis",
+    "show-more",
+    "clamp",
+    "line-clamp",
+    "multiline",
+    "pretext",
+    "react",
+    "no-flash",
+    "text-overflow"
+  ]
+}
