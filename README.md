@@ -1,5 +1,7 @@
 # @shipitandpray/pretext-truncate
 
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://shipitandpray.github.io/pretext-truncate/) [![npm](https://img.shields.io/npm/v/@shipitandpray/pretext-truncate?color=blue)](https://www.npmjs.com/package/@shipitandpray/pretext-truncate)
+
 [![npm version](https://img.shields.io/npm/v/@shipitandpray/pretext-truncate.svg)](https://www.npmjs.com/package/@shipitandpray/pretext-truncate)
 [![bundle size](https://img.shields.io/bundlephobia/minzip/@shipitandpray/pretext-truncate)](https://bundlephobia.com/package/@shipitandpray/pretext-truncate)
 [![license](https://img.shields.io/npm/l/@shipitandpray/pretext-truncate.svg)](https://github.com/ShipItAndPray/pretext-truncate/blob/main/LICENSE)
